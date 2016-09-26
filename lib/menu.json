@@ -1,7 +1,7 @@
 {
     "button": [
         {
-            "name": "菜单1",
+            "name": "期货",
             "sub_button": [
                 {
                     "name": "子菜单",
@@ -11,8 +11,8 @@
             ]
         },
         {
-            "name": "菜单2",
-            "type": "click",
+            "name": "扫描",
+            "type": "SCAN",
             "key": "menu2"
         },
         {
