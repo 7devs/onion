@@ -5,15 +5,25 @@
             "sub_button": [
                 {
                     "name": "子菜单",
-                    "type": "click",
+                    "type": "scancode_push",
                     "key": "menu1"
                 }
             ]
         },
         {
             "name": "扫描",
-            "type": "click",
-            "key": "menu2"
+            "sub_button": [
+                {
+                    "name": "scan",
+                    "type": "scancode_waitmsg",
+                    "key": "menu2"
+                },
+                {
+                    "name": "scan2",
+                    "type": "pic_sysphoto",
+                    "key": "menu3"
+                }
+            ]
         },
         {
             "name": "更多...",
