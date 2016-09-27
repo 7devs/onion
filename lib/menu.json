@@ -1,34 +1,63 @@
 {
     "button": [
         {
-            "name": "期货",
+            "name": "主菜单 1",
             "sub_button": [
                 {
-                    "name": "子菜单",
+                    "name": "扫码推事件",
                     "type": "scancode_push",
                     "key": "menu1"
+                },
+                {
+                    "name": "弹出拍照或者相册发图",
+                    "type": "pic_photo_or_album",
+                    "key": "photo"
+                },
+                {
+                    "name": "button3",
+                    "type": "click",
+                    "key": "hello"
+                },
+                {
+                    "name": "button4",
+                    "type": "click",
+                    "key": "menu2"
                 }
             ]
         },
         {
-            "name": "扫描",
+            "name": "主菜单 2",
             "sub_button": [
                 {
-                    "name": "scan",
+                    "name": "扫码推事件且弹出“消息接收中”提示框",
                     "type": "scancode_waitmsg",
                     "key": "menu2"
                 },
                 {
-                    "name": "scan2",
+                    "name": "弹出系统拍照发图",
                     "type": "pic_sysphoto",
                     "key": "menu3"
+                },
+                {
+                    "name": "地理位置",
+                    "type": "location_select"
                 }
             ]
         },
         {
             "name": "更多...",
-            "type": "view",
-            "url": "http://wechatdev.yokeneng.com/"
+            "sub_button":[
+                {
+                    "name": "url",
+                    "type": "view",
+                    "url": "http://wechatdev.yokeneng.com/"
+                },
+                {
+                    "name": "微信相册发图器",
+                    "type": "pic_weixin"
+                }
+            ]
+
         }
     ]
 }
