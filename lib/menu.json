@@ -40,7 +40,8 @@
                 },
                 {
                     "name": "地理位置",
-                    "type": "location_select"
+                    "type": "location_select",
+                    "key": "location"
                 }
             ]
         },
