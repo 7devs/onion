@@ -6,7 +6,7 @@
                 {
                     "name": "扫码推事件",
                     "type": "scancode_push",
-                    "key": "menu1"
+                    "key": "scan"
                 },
                 {
                     "name": "弹出拍照或者相册发图",
