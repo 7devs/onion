@@ -14,14 +14,14 @@
                     "key": "photo"
                 },
                 {
-                    "name": "button3",
+                    "name": "子菜单1",
                     "type": "click",
-                    "key": "V1001_hello"
+                    "key": "menu1"
                 },
                 {
-                    "name": "button4",
+                    "name": "button2",
                     "type": "click",
-                    "key": "V1001_menu2"
+                    "key": "menu2"
                 }
             ]
         },
