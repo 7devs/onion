@@ -16,12 +16,12 @@
                 {
                     "name": "button3",
                     "type": "click",
-                    "key": "hello"
+                    "key": "V1001_hello"
                 },
                 {
                     "name": "button4",
                     "type": "click",
-                    "key": "menu2"
+                    "key": "V1001_menu2"
                 }
             ]
         },
