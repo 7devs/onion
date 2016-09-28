@@ -31,12 +31,12 @@
                 {
                     "name": "扫码推事件且弹出“消息接收中”提示框",
                     "type": "scancode_waitmsg",
-                    "key": "menu2"
+                    "key": "menu4"
                 },
                 {
                     "name": "弹出系统拍照发图",
                     "type": "pic_sysphoto",
-                    "key": "menu3"
+                    "key": "menu5"
                 },
                 {
                     "name": "地理位置",
@@ -56,7 +56,7 @@
                 {
                     "name": "微信相册发图器",
                     "type": "pic_weixin",
-                    "key": "test"
+                    "key": "testato"
                 }
             ]
 
