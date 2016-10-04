@@ -4,16 +4,6 @@
             "name": "主菜单 1",
             "sub_button": [
                 {
-                    "name": "扫码推事件",
-                    "type": "scancode_push",
-                    "key": "scan"
-                },
-                {
-                    "name": "弹出拍照或者相册发图",
-                    "type": "pic_photo_or_album",
-                    "key": "photo"
-                },
-                {
                     "name": "子菜单1",
                     "type": "click",
                     "key": "menu1"
@@ -22,6 +12,16 @@
                     "name": "button2",
                     "type": "click",
                     "key": "menu2"
+                },
+                {
+                    "name": "扫码推事件",
+                    "type": "scancode_push",
+                    "key": "scan"
+                },
+                {
+                    "name": "弹出拍照或者相册发图",
+                    "type": "pic_photo_or_album",
+                    "key": "photo"
                 }
             ]
         },
