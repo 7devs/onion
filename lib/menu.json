@@ -9,7 +9,7 @@
                     "key": "menu1"
                 },
                 {
-                    "name": "button2",
+                    "name": "子菜单2",
                     "type": "click",
                     "key": "menu2"
                 },
