@@ -20,7 +20,7 @@ app.set('views engine', 'ejs');
 
 //静态文件目录，在 Express 中提供如图像,CSS 文件和 JavaScript 文件之类的静态文件时，使用 Express 中的 express.static 内置中间件函数。
 app.use(
-    static(
+    express.static(
         path.join(__dirname, 'static'),
         {
             index: false,
