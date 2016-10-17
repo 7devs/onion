@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 //设置模板目录
 app.set('views', path.join(__dirname,'lib/views'));
 //设置模板引擎
-app.set('views engine', 'ejs');
+app.set('view engine', 'ejs');
 
 //静态文件目录，在 Express 中提供如图像,CSS 文件和 JavaScript 文件之类的静态文件时，使用 Express 中的 express.static 内置中间件函数。
 app.use(
