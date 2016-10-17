@@ -49,14 +49,14 @@
             "name": "更多...",
             "sub_button":[
                 {
-                    "name": "url",
+                    "name": "page one",
                     "type": "view",
-                    "url": "http://wechatdev.yokeneng.com/"
+                    "url": "http://wechatdev.yokeneng.com/8005/pages/one"
                 },
                 {
-                    "name": "微信相册发图器",
-                    "type": "pic_weixin",
-                    "key": "testato"
+                    "name": "page two",
+                    "type": "view",
+                    "url": "http://wechatdev.yokeneng.com/8005/pages/two"
                 }
             ]
 
