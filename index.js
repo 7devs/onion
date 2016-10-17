@@ -1,4 +1,5 @@
-var app = require('express')(),
+var express = require('express'),
+    app = express(),
     //引入配置文件
     conf = require('./lib/config'),
     //引入系统提供的 path 包
